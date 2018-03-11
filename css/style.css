@@ -37,28 +37,15 @@ h1{
 }
 
 p{
-	line-height: 3px
+	line-height: 5px
 }
 
 
 .container2{
-	margin: 0 auto;
-	width:500px;
-	height:400px;
-	border:2px solid black;
-	overflow:hidden;
-	animation:one 35s;
-	position:relative;
-	background-size:500px 400px;
-	transition:2s ease;
-	transition-delay:2s;
+	display:inline-block;
+	width:100%;
 }
 
-@keyframes one{
-0%{background-image:url("1.jpg");}
-20%{background-image:url("2.jpg");}
-40%{background-image:url("3.jpg");}
-60%{background-image:url("4.jpg");}
-80%{background-image:url("5.jpg");}
-100%{background-image:url("6.jpg");}
+img{
+	width:100%;
 }
